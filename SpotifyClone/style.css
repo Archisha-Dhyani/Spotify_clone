@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+
+body{
+    background-color:white ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    
+    font-family: 'Ubantu',sans-serif;
+    width: 100%;
+
+}
+nav ul{
+    display :flex ;
+    list-style-type:none;
+    height:40px;
+    background-color: black;
+    color:rgb(190, 183, 183);
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    height: 34px;
+    width: 34px;
+    padding : 0 8px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin: auto 0px;
+}
+
+/*-----------------------player-----------------*/
+.player{
+background-color:black;
+display :flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: white;
+height: 50px;
+bottom: 0;
+
+}
+ .container {
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family:'Verela Round',sans-serif ;
+    display: flex;
+    margin: 50px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    
+    background-image: url('https://i.pinimg.com/564x/e4/5a/25/e45a25750bf60adae0cc69844bf8de68.jpg');
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-position-x: right;
+    
+} 
+.icons{
+    fill: white ;
+    margin-top: 5px;
+    size: cap;
+
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songItem{
+    height: 27px;
+    display: flex;
+    background-color: white;
+    width: 200%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    vertical-align: middle;
+    
+    
+}
+.songItem span{
+    font-family:'Verela Round',sans-serif ;
+    font-size: 12px;
+}
+.songItem svg{
+    height: 15px;
+    margin: auto;
+
+    }
+.songItem img{
+    width: 26px;
+    margin: 0 12px;
+
+}
+/* .songList{
+    padding: 100px;
+} */
+.timestamp{
+    margin: 10px;
+    padding: 10px;
+    size: 10px;
+    vertical-align: middle;
+    display: flex;
+    gap: 5px;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+
+}
+.songInfo img{
+    opacity: 1;
+    transition: opacity is ease-in;
+}
+
